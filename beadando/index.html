@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beadando Kiss Áron Csaba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <div id="kezdokepernyo">
+        <span id="gyozteskiiras"> </span><br>
+       <div id="jatekszamdiv"> Játékosszám: <input type="range" id="jatekosokszama" name="points" min="1" max="4" value="2">
+        <span id="jatekosspan">2</span><br></div>
+        <div id="jatekkincsdiv">  Játékosonkénti kincs: <input type="range" id="kincsekszama" name="points" min="1" max="6" value="2">
+        <span id="kincsspan">2</span> </div>
+        <button id="ujjatek" >Új játék</button><br>
+        <button id="jatekszabgomb">Játékszabály</button>
+        <div id="jatekszabdiv" style=" margin: auto;display: none;">
+            <h1>A játék leírása</h1>
+               <p> A katakomba szobáit egy 7x7-es négyzetrács cellái jelképezik. Minden szoba esetén adott, hogy mely falain van ajtó.
+                   Ha két szomszédos szoba érintkező falán egy-egy ajtó van, akkor át lehet menni egyik szobából a másikba.
+                    A négyzetrács páros sorait és oszlopait el lehet tolni, a többi szoba végig rögzített a játék során. 
+                    Az eltolásokkal az ajtókon keresztül utak nyílnak a szobák között, így lehet eljutni a kincsekhez.
+                     Mindegyik kérő arra törekszik, hogy a katakomba szobáinak ötletes eltolásával eljusson a kincsekhez. 
+                     Aki elsőként találja meg mindahányat és kiindulópontjára sikeresen visszaérkezik az a nyertes.</p>
+               <p>Megjegyzés: a jobb oldali ábrán és majd a következő két ábrán a jobb oldali világoskék csík "véletlenül" került oda, a plusz elem miatt jelent meg.
+                    Ennek megjelenítése nem elvárás, sőt csúnya megoldásnak számít! </p>
+                <p>A játék elején a szobákat véletlen sorrendben és véletlen irányban kirakjuk a játéktábla szabad mezőire.
+                 A szobák közül az egyik mindenképpen fölösleges marad. A játék folyamán majd mindig az éppen kimaradó szobát használjuk a többi szoba elcsúsztatására. 
+                 A játékban legfeljebb 24 kincset kell megtalálni. Ezeket véletlen sorrendben felrakjuk a táblára úgy, hogy egy mezőn csak egy kincs lehet, és a sarokba nem rakhatunk,
+                  majd az ezeket jelző kártyákat összekeverjük, és egyenlő számban szétosztjuk a játékosok között, felfedve mindig a legfelső kártyát.
+                   A játékosokat jelző figurákat a tábla külön sarkaiba helyezzük. </p>
+               <p> A játék során minden játékosnak a kincsei közül azt kell megszereznie, amit az aktuálisan legfelső, mindenki által látható kincskártya mutat.
+                    Arra a mezőre kell eljutni. Ahhoz, hogy a célt elérje, a játékosnak</p>
+               <p> 1.	először a katakombát kell átalakítania a kimaradt szoba becsúsztatásával, és
+                2.	lépnie mindig csak ez után szabad a figurájával.</p>
+             <p>  A katakomba átalakítása a következőképpen történik: A játékos a kimaradt szobát (tetszőlegesen elforgatva) valamelyik oldalról becsúsztathatja a játéktábla területére
+                  egy szabadon mozgó sor vagy oszlop szélén, aminek következtében az átellenes oldalon kiesik egy másik szoba. A tábla szélén nyilak jelzik azokat a helyeket, ahol a szobát be lehet csúsztatni. 
+                  A szoba bárhol betolható, kivétel ott, ahol az imént kilökődött. Nem szabad tehát az előző játékos lépését rögtön „visszacsinálni". 
+                  Ha a szobák eltolása során a szobával együtt egy figura is kitolódnék – 
+                  akár másé, akár a miénk -, akkor ezt a figurát az ellenkező oldalról imént becsúsztatott szobába kell helyezni.</p> 
+               <p> A szobák eltolását követi a játékos lépése a figurával. A katakomba minden olyan pontjáig el lehet jutni, amelyet a kiindulóponttal folyamatos járatvonal köt össze.
+                    Az ilyen járatokban tehát olyan messzire mehetünk el, amilyen messzire csak akarunk, vagyis nem számít, hogy hány szobán lépkedünk végig. 
+                    Nem kötelező lépni. Figuránkat akár ott is hagyhatjuk, ahol éppen van. Egy mezőn több figura is állhat: a figurák nem ütik ki egymást.
+                     Ha valaki nem tud rögtön céljáig eljutni, akkor figurájával addig a pontig célszerű elmennie, ahol feltehetőleg jó helyzetben várhatja következő lépést.
+                      Ha valaki elérte a felfedett kincskártya által megjelölt célt, akkor felfedi a következőt, és most ehhez a célhoz igyekszik eljutni, stb.</p>
+               <p> A játék akkor ér véget, ha egy játékos az összes kincskártyájához tartozó kincset megszerezte, és visszavezette a figuráját arra mezőre, ahonnan elindult. Az a győztes, aki valamennyi kincsét megtalálta és figuráját elsőként juttatta vissza a kiindulópontra.
+                </p>
+            <button id="jatekszabbezar">Bezárás</button>
+        </div>
+    </div>
+    <div id=jatekter style=" margin: auto;display: none;">
+        <div id="fentigombok">
+            <table>
+
+                <tr>
+                    <td></td>
+                    <td><button  id="le1"></button></td>
+                    <td></td>
+                    <td><button id="le3"></button></td>
+                    <td></td>
+                    <td><button id="le5"></button></td>
+                    <td></td>
+
+                </tr>
+
+            </table>
+        </div>
+
+
+        <div id=balgombok>
+            <table>
+                <tr></tr>
+                <tr>
+                    <td><button id="jobbgomb1"></button></td>
+
+
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><button id="jobbgomb3"></button></td>
+
+
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><button id="jobbgomb5" ></button></td>
+
+                </tr>
+                <tr></tr>
+
+            </table>
+        </div>
+        <div id=tabla style=" margin: auto;display: none;"></div>
+        <div id=jobbgombok>
+            <table>
+                <tr></tr>
+                <tr>
+                    <td><button id="balgomb1"></button></td>
+
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><button id="balgomb3" ></button></td>
+
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><button id="balgomb5" ></button></td>
+                </tr>
+                <tr></tr>
+
+            </table>
+        </div>
+
+        <div id=lentigombok>
+            <table>
+
+                <tr>
+                    <td></td>
+                    <td><button id="fel1"></button></td>
+                    <td></td>
+                    <td><button id="fel3"></button></td>
+                    <td></td>
+                    <td><button id="fel5"></button></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+        <button id="korvege">Kör vége</button>
+        <div id="pluszelemdiv">
+            <p>Pluszelem:</p>
+            <table>
+                <tr>
+                    <td id="pluszelem"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="adatlap">
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

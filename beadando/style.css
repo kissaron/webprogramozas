@@ -1,0 +1,275 @@
+body{
+    background-color:  rgb(245, 209, 192);
+}
+
+td{
+  
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+}
+
+
+td img{
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    position: relative;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+#kep{
+    position: relative;
+}
+
+
+td img{
+    position: relative;
+}
+
+#piros{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+#kek{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#zold{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+#sarga{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+td{
+    position: relative;
+}
+
+#kincs{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+
+
+}
+#balgombok{
+  position: absolute;
+  float: left;
+  width: 75px;
+  height: 525px;
+
+  left: calc(33% - 75px) ;
+  top: 75px;
+ 
+}
+#balgombok table tr  {
+    width: 100px;
+    height: 75px;
+   
+
+}
+#balgombok table tr button{
+    width: 75px;
+    height: 75px;
+    background-image: url("nyilbal.png");
+
+}
+
+#tabla{
+  position: absolute;
+  float: left;
+  width: 525px;
+  height: 525px;
+  background-color: rgb(184, 133, 109);
+  left: 33%;
+  top: 75px;
+ 
+
+
+}#jobbgombok{
+    position: absolute;
+
+  width: 75px;
+  height: 525px;
+
+  left: calc(33% + 525px) ; ;
+  top: 75px;
+ 
+}
+#jobbgombok table tr  {
+    width: 100px;
+    height: 75px;
+
+}
+#jobbgombok table tr button{
+    width: 75px;
+    height: 75px;
+    background-image: url("nyiljobb.png");
+
+}
+
+
+
+#lentigombok{
+    position: absolute;
+   
+    width: 525px;
+    height: 75px;
+
+    top: 600px;
+    left: 33%;
+
+}
+#lentigombok table td  {
+    width:75px;
+    height: 75px;
+}
+#lentigombok table tr button{
+    width: 75px;
+    height: 75px;
+    background-image: url("nyilfel.png");
+
+}
+
+#fentigombok{
+    position: absolute;
+    width: 525px;
+    height: 75px;
+
+    left: 33%;
+
+}
+
+#fentigombok table td  {
+    width:75px;
+    height: 75px;
+}
+
+#fentigombok table tr button{
+    width: 75px;
+    height: 75px;
+    /*border: 1px solid orange;*/
+    background-image: url("nyille.png");
+}
+
+
+#pluszelemdiv{
+    position: absolute;
+  
+    width: 75px;
+    height: 75px;
+
+    right: calc(3% + 60px) ;
+    top: 420px;
+   
+   
+}
+
+#jatekter{
+    position: relative;
+    height: 700px;
+    background-color: rgb(245, 209, 192);
+}
+
+#korvege{
+    position: absolute;
+    width: 210px;
+    height: 75px;
+    right: 3%;
+    top: 330px;
+
+}
+#adatlap{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    
+    top: 40px;
+    right: 3%;
+    border: 5px solid rgb(184, 133, 109);
+}  
+
+
+#kezdokepernyo{
+    position: relative;
+    border: 5px solid rgb(184, 133, 109);
+    margin: auto;
+    width: 50%;
+    height: 210px;
+}
+
+
+#ujjatek{
+    position: absolute;
+    right: 15px;
+    height: 75px;
+    width: 120px;
+    top: 50px;
+}
+
+#jatekszabgomb{
+    position: absolute;
+    right: 15px;
+    top: 130px;
+    height: 75px;
+    width: 120px;
+}
+
+#jatekszamdiv{
+    position: absolute;
+    left: 20%;
+    top: 100px;
+}
+
+
+#jatekkincsdiv{
+    position: absolute;
+    left: 20%;
+    top: 130px;
+}
+
+#jatekszabdiv{
+    position: absolute;
+
+    padding: 50px;
+
+    top: 210px;
+}
+
+#jatekszabbezar{
+    position: absolute;
+    left: 45%;
+    height: 75px;
+    width: 120px;
+}
+
+#gyozteskiiras{
+    position: absolute;
+    left: 20%;
+    font-size: 50px;
+}
